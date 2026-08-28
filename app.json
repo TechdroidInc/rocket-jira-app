@@ -3,7 +3,7 @@
     "name": "Rocket Jira",
     "nameSlug": "rocket-jira",
     "version": "0.1.0",
-    "requiredApiVersion": "^1.65.1",
+    "requiredApiVersion": "^1.50.0",
     "description": "Rewrites Jira issue keys in messages into markdown links with the issue summary. Works in channels, private groups and direct messages.",
     "author": {
         "name": "Techdroid",
