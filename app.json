@@ -1,0 +1,22 @@
+{
+    "id": "09536597-4314-40f0-89c1-6e3b3dc6c96d",
+    "name": "Rocket Jira",
+    "nameSlug": "rocket-jira",
+    "version": "0.1.0",
+    "requiredApiVersion": "^1.65.1",
+    "description": "Rewrites Jira issue keys in messages into markdown links with the issue summary. Works in channels, private groups and direct messages.",
+    "author": {
+        "name": "Techdroid",
+        "support": "https://www.techdroid.com"
+    },
+    "classFile": "src/App.ts",
+    "iconFile": "icon.png",
+    "implements": [
+        "IPreMessageSentModify"
+    ],
+    "permissions": [
+        {
+            "name": "networking"
+        }
+    ]
+}

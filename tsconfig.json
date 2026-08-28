@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
